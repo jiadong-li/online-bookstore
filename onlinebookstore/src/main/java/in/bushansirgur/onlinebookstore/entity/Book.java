@@ -32,8 +32,8 @@ public class Book {
 	private Long id;
 	
 	private String sku;
-	private String  name;
-	private String  description;
+	private String name;
+	private String description;
 	
 	@Column(name="unit_price")
 	private BigDecimal unitPrice;
